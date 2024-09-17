@@ -10,4 +10,5 @@ run : soal2
 
 .PHONY : clean
 clean :
-	del -f soal2.o
+	rm -f soal2.o
+	rm -f soal2.exe
