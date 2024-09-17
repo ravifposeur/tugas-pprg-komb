@@ -11,3 +11,4 @@ run : soal1
 .PHONY : clean
 clean :
 	rm -f soal1.o
+	rm -f soal1.exe
