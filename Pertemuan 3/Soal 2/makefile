@@ -10,5 +10,5 @@ run : soal2
 
 .PHONY : clean
 clean :
-	del -f soal2.o
-	del -f soal2.exe
+	rm -f soal1.o
+	rm -f soal1.exe
