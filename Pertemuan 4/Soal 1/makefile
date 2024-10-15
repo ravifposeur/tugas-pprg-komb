@@ -8,6 +8,10 @@ soal1.o : soal1.cpp
 run : soal1
 	./soal1
 
+.PHONY : test
+test : soal1
+	./soal1
+
 .PHONY : clean
 clean :
 	rm -f soal1.o
