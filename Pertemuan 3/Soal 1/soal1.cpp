@@ -15,8 +15,8 @@ int main(){
     
     disc = pow(b,2) - (4*a*c);
     if(disc > 0){
-        x1 = ((-b) + sqrt(disc))/2*a;
-        x2 = ((-b) - sqrt(disc))/2*a;
+        x1 = ((-b) + sqrt(disc))/(2*a);
+        x2 = ((-b) - sqrt(disc))/(2*a);
         cout << "x1 = " << setprecision(2) << fixed << x1 << endl; 
         cout << "x2 = " << setprecision(2) << fixed << x2 << endl;
         return 0;
