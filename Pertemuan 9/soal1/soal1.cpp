@@ -9,7 +9,7 @@ struct Student {
 };
 
 // Fungsi untuk menampilkan data
-void displayData(const vector<Student>& students, ostream& out) {
+void displayData(const vector<Student>& students, std::ostream& out) {
     for (const auto& student : students) {
         out << student.nisn << " " << student.name << " " << student.score << endl;
     }
